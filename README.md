@@ -1,14 +1,8 @@
-扫码加微信，备注V部落，进群讨论。
-
-![](http://www.javaboy.org/images/weixin.png)
 
 V部落是一个多用户博客管理平台，采用Vue+SpringBoot开发。  
 
 项目演示地址： [http://45.77.146.32:8081/index.html](http://45.77.146.32:8081/index.html)  
 
-## 英雄帖
-
->项目还有许多待改进的地方，欢迎小伙伴提交pr，我会将大家完成的工作展示在README中！
 
 # 项目效果图  
 
@@ -63,17 +57,13 @@ V部落是一个多用户博客管理平台，采用Vue+SpringBoot开发。
 
 # 快速运行  
 
-1.克隆本项目到本地  
 
-```
-git@github.com:lenve/VBlog.git
-```  
 
 2.找到blogserver项目中resources目录下的vueblog.sql文件，在MySQL数据库中执行  
 3.根据自己本地情况修改数据库配置，数据库配置在SpringBoot项目的application.properties中  
 4.在IntelliJ IDEA中运行blogserver项目  
 
-**OK，至此，服务端就启动成功了，此时我们直接在地址栏输入```http://localhost:8081/index.html```即可访问我们的项目，如果要做二次开发，请继续看第五、六步。**  
+**OK，至此，服务端就启动成功了，此时我们直接在地址栏输入```http://localhost:8081/index.html```即可访问我们的项目**  
 
 5.进入到vueblog目录中，在命令行依次输入如下命令：  
 
@@ -105,13 +95,3 @@ npm run build
 2.[mavonEditor](https://github.com/hinesboy/mavonEditor)  
 
 # License
-
-MIT
-
-**欢迎小伙伴们star、fork。**  
-
-## 其他
-
-关注公众号**江南一点雨**，专注于 Spring Boot+微服务，定期视频教程分享，关注后回复 Java ，领取松哥为你精心准备的 Java 干货！
-
-![公众号二维码](http://www.javaboy.org/images/sb/javaboy.jpg)  
